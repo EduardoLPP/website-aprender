@@ -36,7 +36,9 @@ export const GlobalStyles = createGlobalStyle`
         --dark-purple: #402C97;
         --gold: #B9971E;
         --card: #1F1C29;
-        
+        --button-card: #282530;
+        --gray: #C1BDD4;
+
 
         --font-logo: 700 ${pixelToRem(40)}/${pixelToRem(46)} "Ubuntu", sans-serif;
         --font-title: 700 ${pixelToRem(55)}/${pixelToRem(52)} "Ubuntu", sans-serif;
