@@ -42,7 +42,10 @@ export const GlobalStyles = createGlobalStyle`
 
         --font-logo: 700 ${pixelToRem(40)}/${pixelToRem(46)} "Ubuntu", sans-serif;
         --font-title: 700 ${pixelToRem(55)}/${pixelToRem(52)} "Ubuntu", sans-serif;
-        --font-sub: 400 ${pixelToRem(20)}/${pixelToRem(20)} "Ubuntu", sans-serif;
+        --font-subtitle: 700 ${pixelToRem(40)}/${pixelToRem(20)} "Ubuntu", sans-serif;
+        --font: 600 ${pixelToRem(35)}/${pixelToRem(20)} "Ubuntu", sans-serif;
+        --font-sub: 600 ${pixelToRem(20)}/${pixelToRem(20)} "Ubuntu", sans-serif;
+        --font-text: 400 ${pixelToRem(18)}/${pixelToRem(20)} "Ubuntu", sans-serif;
         --font-button: 400 ${pixelToRem(18)}/${pixelToRem(30)} "Ubuntu", sans-serif;
     }
 `;

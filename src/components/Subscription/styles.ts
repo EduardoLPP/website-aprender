@@ -22,10 +22,12 @@ export const Container = styled.div`
 
 export const Title = styled.p`
     color: var(--purple);
+    font: var(--font-subtitle);
 `;
 
 export const SubTitle = styled.p`
     color: var(--gray);
+    font: var(--font);
 `;
 
 export const Button = styled.div`
@@ -49,10 +51,12 @@ export const Button = styled.div`
 
 export const Desc = styled.p`
     color: var(--gray);
+    font: var(--font-text);
 `;
 
 export const ButtonTitle = styled.p`
     color: var(--purple);
+    font: var(--font-sub);
     margin-bottom: ${pixelToRem(10)};
 `;
 

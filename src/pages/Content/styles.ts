@@ -20,9 +20,9 @@ export const ContainerComments = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: ${pixelToRem(150)};
-    padding-left: ${pixelToRem(300)};
-    padding-right: ${pixelToRem(300)};
+    margin-bottom: ${pixelToRem(175)};
+    padding-left: ${pixelToRem(250)};
+    padding-right: ${pixelToRem(250)};
 `;
 
 export const ContainerDescription = styled.div`

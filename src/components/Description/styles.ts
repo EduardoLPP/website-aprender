@@ -17,9 +17,10 @@ export const Line = styled.div`
     width: 100%;
     background: var(--purple);
     border-radius: ${pixelToRem(2)};
-    margin-bottom: ${pixelToRem(10)};
+    margin-bottom: ${pixelToRem(15)};
 `;
 
 export const Title = styled.p`
     color: var(--white);
+    font: var(--font-subtitle);
 `;

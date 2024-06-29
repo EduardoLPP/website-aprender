@@ -8,6 +8,7 @@ export interface CardProps {
 
 export const Title = styled.p`
     color: var(--white);
+    font: var(--font-sub);
 `;
 
 export const Container = styled.div`

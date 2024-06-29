@@ -5,6 +5,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     margin-left: ${pixelToRem(158)};
+    margin-bottom: ${pixelToRem(50)};
 `;
 
 export const Logo = styled.p`

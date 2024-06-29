@@ -17,7 +17,7 @@ export const LeftSide = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: ${pixelToRem(10)};
+    margin-right: ${pixelToRem(20)};
 `;
 
 export const Image = styled.div<CommentCardProps>`
@@ -37,9 +37,11 @@ export const RightSide = styled.div`
 
 export const Name = styled.p`
     color: var(--white);
+    font: var(--font-sub);
 `;
 
 export const Comentary = styled.p`
     color: var(--white);
+    font: var(--font-text);
 `;
 

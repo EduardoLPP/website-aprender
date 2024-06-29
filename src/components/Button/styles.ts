@@ -22,5 +22,5 @@ export const Container = styled.button`
 
 export const Title = styled.p`
     color: var(--black);
-    font: var(--font-button);
+    font: var(--font-sub);
 `;
