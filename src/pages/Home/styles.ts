@@ -61,3 +61,31 @@ export const NotebookImage = styled.div`
     background-size: cover;
     margin-top: ${pixelToRem(80)};
 `;
+
+export const TranslateButton = styled.button`
+  background: var(--dark-purple);
+  border: none;
+  border-radius: ${pixelToRem(3)};
+  cursor: pointer;
+  margin-right: ${pixelToRem(10)};
+  margin-top: -55px;
+  padding: ${pixelToRem(20)};
+  height: ${pixelToRem(50)};
+  position: absolute;
+  right: ${pixelToRem(0)};
+  top: ${pixelToRem(50)};
+
+  &:hover{
+    background: var(--purple);
+  }
+`;
+
+export const TranslateText = styled.p`
+  font: var(--font-text);
+  color: var(--white);
+  font-size: ${pixelToRem(15)};
+
+  &:hover{
+    color: var(--white);
+  }
+`;
