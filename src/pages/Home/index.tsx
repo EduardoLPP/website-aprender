@@ -9,7 +9,7 @@ export function Home() {
   const changeLanguage = () => {
     const currentLanguage = i18n.language;
 
-    if(currentLanguage == 'en'){
+    if(currentLanguage === 'en'){
       i18n.changeLanguage('pt');
     }
     else{
@@ -21,7 +21,7 @@ export function Home() {
    <Container>
 
     <TranslateButton onClick={() => changeLanguage()}>
-        <TranslateText>{i18n.language == 'en' ? 'Traduzir (pt-Br)' : 'Translate (en)'}</TranslateText>
+        <TranslateText>{i18n.language === 'en' ? 'Traduzir (pt-Br)' : 'Translate (en)'}</TranslateText>
     </TranslateButton>
 
     <ContainerTitles>
